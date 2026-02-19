@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Menu</title>
+        <link rel="stylesheet" href="./our.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                <img src="../images/WhatsApp_Image_2024-07-21_at_22.24.21_dedc046b-removebg-preview.png" alt="">
+            </div>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./Menu part/our.html">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#book a table">Book a Table</a></li>
+                    <li><a href="#help">Help</a></li>
+                </ul>
+
+            <div class="Home-icons">
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </nav>
+
+        <div class="main">
+        <h1><span class="heading-black">Our&nbsp;</span> <span class="heading-yellow"> Menu</span></h1>
+
+        <div class="buttons">
+            <button onclick="showCategory('all')">All Items</button>
+            <button onclick="showCategory('starters')">Starters</button>
+            <button onclick="showCategory('desserts')">Desserts</button>
+            <button onclick="showCategory('snacks')">Snacks</button>
+            <button onclick="showCategory('biriyanis')">Biriyanis</button>
+            <button onclick="showCategory('curries')">Curries</button>
+        </div>
+
+        </div>
+        <section>
+        <div id="menu" class="menu-box">
+
+            <div class="menu-item snacks">
+                <div class="menu-img">
+                    <img src="./Snacks/chicken sandwich.jpg" alt="Snack 3">
+                </div>
+                <div class="menu-content">
+                    <h2>Chicken Sandwich</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$14</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item starters">
+                <div class="menu-img">
+                    <img src="./Veg Starters/Chilli garlic Potato.jpg" alt="Starter 1">
+                </div>
+                <div class="menu-content">
+                    <h2>Chilli Potato</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$12</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item desserts">
+                <div class="menu-img">
+                    <img src="./Desserts/Black Forest.jpg" alt="Dessert 1">
+                </div>
+                <div class="menu-content">
+                    <h2>Black Forest</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$14</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item starters">
+                <div class="menu-img">
+                    <img src="./Veg Starters/Corn Cheese Balls.jpg" alt="Starter 2">
+                </div>
+                <div class="menu-content">
+                    <h2>Corn Balls</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$13</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="menu-item starters">
+                <div class="menu-img">
+                    <img src="./Veg Starters/Chilli Panner.avif" alt="Starter 3">
+                </div>
+                <div class="menu-content">
+                    <h2>Chilli Paneer</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$12</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item starters">
+                <div class="menu-img">
+                    <img src="./Veg Starters/Paneer.jpg" alt="Starter 4">
+                </div>
+                <div class="menu-content">
+                    <h2>Paneer Tikka</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$11</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="menu-item starters">
+                <div class="menu-img">
+                    <img src="./Veg Starters/Corn Chaat.jpg" alt="Starter 5">
+                </div>
+                <div class="menu-content">
+                    <h2>Corn Chaat</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$12</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item starters">
+                <div class="menu-img">
+                    <img src="./Veg Starters/Dahi Vada.jpg" alt="Starter 6">
+                </div>
+                <div class="menu-content">
+                    <h2>Dahi Vada</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$14</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item starters">
+                <div class="menu-img">
+                    <img src="./Veg Starters/Gobi Manchurian.jpg" alt="Starter 7">
+                </div>
+                <div class="menu-content">
+                    <h2>Manchurian</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$13</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item starters">
+                <div class="menu-img">
+                    <img src="./Veg Starters/Momos.jpg" alt="Starter 8">
+                </div>
+                <div class="menu-content">
+                    <h2>Momos</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$13</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item starters">
+                <div class="menu-img">
+                    <img src="./Veg Starters/Rava Dokhla.jpg" alt="Starter 9">
+                </div>
+                <div class="menu-content">
+                    <h2>Rava Dhokla</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$14</span></h3>
+                    <div  onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item starters">
+                <div class="menu-img">
+                    <img src="./Non Veg Starters/Chicken 65.avif" alt="Starter 10">
+                </div>
+                <div class="menu-content">
+                    <h2>Chicken 65</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$15</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item starters">
+                <div class="menu-img">
+                    <img src="./Non Veg Starters/Chicken Lolipop.jpg" alt="Starter 11">
+                </div>
+                <div class="menu-content">
+                    <h2>Chicken Lolipop</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$15</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item starters">
+                <div class="menu-img">
+                    <img src="./Non Veg Starters/Chicken Majestic2.jpg" alt="Starter 12">
+                </div>
+                <div class="menu-content">
+                    <h2>Chicken Majestic</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$14</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item starters">
+                <div class="menu-img">
+                    <img src="./Non Veg Starters/Chicken Nuggets.jpg" alt="Starter 13">
+                </div>
+                <div class="menu-content">
+                    <h2>Chicken Nuggets</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$14</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item starters">
+                <div class="menu-img">
+                    <img src="./Non Veg Starters/Chicken Pakoda.jpg" alt="Starter 14">
+                </div>
+                <div class="menu-content">
+                    <h2>Chicken Pakoda</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$13</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item starters">
+                <div class="menu-img">
+                    <img src="./Non Veg Starters/Chicken Spring Rolls.jpg" alt="Starter 15">
+                </div>
+                <div class="menu-content">
+                    <h2>Chicken Rolls</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$15</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item starters">
+                <div class="menu-img">
+                    <img src="./Non Veg Starters/Chicken Tikka.avif" alt="Starter 16">
+                </div>
+                <div class="menu-content">
+                    <h2>Chicken Tikka</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$14</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item starters">
+                <div class="menu-img">
+                    <img src="./Non Veg Starters/Chicken.jpg" alt="Starter 17">
+                </div>
+                <div class="menu-content">
+                    <h2>Chicken</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$16</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item starters">
+                <div class="menu-img">
+                    <img src="./Non Veg Starters/Grilled Chicken.jpg" alt="Starter 18">
+                </div>
+                <div class="menu-content">
+                    <h2>Grilled Chicken</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$18</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="menu-item desserts">
+                <div class="menu-img">
+                    <img src="./Desserts/Cheese Cake.webp" alt="Dessert 2">
+                </div>
+                <div class="menu-content">
+                    <h2>Black Forest</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$14</span></h3>
+                    <div  onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item desserts">
+                <div class="menu-img">
+                    <img src="./Desserts/Chocolate Brownie.webp" alt="Dessert 3">
+                </div>
+                <div class="menu-content">
+                    <h2>Choco Brownie</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$15</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item desserts">
+                <div class="menu-img">
+                    <img src="./Desserts/Chocolate chip cookies.jpeg" alt="Dessert 4">
+                </div>
+                <div class="menu-content">
+                    <h2>Chocochip Cookies</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$14</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="menu-item desserts">
+                <div class="menu-img">
+                    <img src="./Desserts/Christmas pudding.jpg" alt="Dessert 5">
+                </div>
+                <div class="menu-content">
+                    <h2>Christmas </h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$17</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item desserts">
+                <div class="menu-img">
+                    <img src="./Desserts/Gourmet Dessert.jpg" alt="Dessert 6">
+                </div>
+                <div class="menu-content">
+                    <h2>Gourmet</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$15</span></h3>
+                    <div  onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item desserts">
+                <div class="menu-img">
+                    <img src="./Desserts/Italian Dessert.jpg" alt="Dessert 7">
+                </div>
+                <div class="menu-content">
+                    <h2>Italian</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$14</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+ 
+            <div class="menu-item desserts">
+                <div class="menu-img">
+                    <img src="./Desserts/Lava Cake.jpg" alt="Dessert 8">
+                </div>
+                <div class="menu-content">
+                    <h2>Lava Cake</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$18</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item desserts">
+                <div class="menu-img">
+                    <img src="./Desserts/Raspberry Dessert.jpg" alt="Dessert 9">
+                </div>
+                <div class="menu-content">
+                    <h2>Raspberry</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$15</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <div class="menu-item snacks">
+                <div class="menu-img">
+                    <img src="./Snacks/chicken pizza.jpg" alt="Snack 1">
+                </div>
+                <div class="menu-content">
+                    <h2>Chicken pizza</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$14</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item snacks">
+                <div class="menu-img">
+                    <img src="./Snacks/chicken burger.jpg" alt="Snack 2">
+                </div>
+                <div class="menu-content">
+                    <h2>Chicken Burger</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$13</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="menu-item snacks">
+                <div class="menu-img">
+                    <img src="./Snacks/paneer burger.jpg" alt="Snack 4">
+                </div>
+                <div class="menu-content">
+                    <h2>Paneer Burger</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$13</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item snacks">
+                <div class="menu-img">
+                    <img src="./Snacks/paneer pizza.jpg" alt="Snack 5">
+                </div>
+                <div class="menu-content">
+                    <h2>Paneer pizza</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$14</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item snacks">
+                <div class="menu-img">
+                    <img src="./Snacks/sweet corn pizza.jpg" alt="Snack 6">
+                </div>
+                <div class="menu-content">
+                    <h2>Sweetcorn pizza</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$13</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item snacks">
+                <div class="menu-img">
+                    <img src="./Snacks/veg burger.jpg" alt="Snack 7">
+                </div>
+                <div class="menu-content">
+                    <h2>Veg Burger</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$13</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item snacks">
+                <div class="menu-img">
+                    <img src="./Snacks/Veg pizza.jpg" alt="Snack 8">
+                </div>
+                <div class="menu-content">
+                    <h2>Veg pizza</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$14</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item snacks">
+                <div class="menu-img">
+                    <img src="./Snacks/veg sandwich.jpg" alt="Snack 9">
+                </div>
+                <div class="menu-content">
+                    <h2>Veg Sandwich</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$14</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="menu-item biriyanis">
+                <div class="menu-img">
+                    <img src="./biriyanis/chicken biriyani.avif" alt="Biriyani 1">
+                </div>
+                <div class="menu-content">
+                    <h2>Chilli Potato</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$14</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item biriyanis">
+                <div class="menu-img">
+                    <img src="./biriyanis/chicken fried rice.jpg" alt="Biriyani 2">
+                </div>
+                <div class="menu-content">
+                    <h2>Chicken friedrice</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$13</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item biriyanis">
+                <div class="menu-img">
+                    <img src="./biriyanis/Handi biriyani.jpg" alt="Biriyani 3">
+                </div>
+                <div class="menu-content">
+                    <h2>Handi Biriyani</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$14</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item biriyanis">
+                <div class="menu-img">
+                    <img src="./biriyanis/mixed biriyani.jpg" alt="Biriyani 4">
+                </div>
+                <div class="menu-content">
+                    <h2>Mixed Biriyani</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$15</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item biriyanis">
+                <div class="menu-img">
+                    <img src="./biriyanis/mutton biriyani.jpg" alt="Biriyani 5">
+                </div>
+                <div class="menu-content">
+                    <h2>Mutton Biriyani</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$14</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item biriyanis">
+                <div class="menu-img">
+                    <img src="./biriyanis/prawns biriyani.jpg" alt="Biriyani 6">
+                </div>
+                <div class="menu-content">
+                    <h2>Prawns Biriyani</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$15</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item curries">
+                <div class="menu-img">
+                    <img src="./Veg Curries/Aloo Masala.jpg" alt="Curry 1">
+                </div>
+                <div class="menu-content">
+                    <h2>Chilli Potato</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$10</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item curries">
+                <div class="menu-img">
+                    <img src="./Veg Curries/Cauliflower and chickpea curry.jpg" alt="Curry 2">
+                </div>
+                <div class="menu-content">
+                    <h2>Chickpea Curry</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$11</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item curries">
+                <div class="menu-img">
+                    <img src="./Veg Curries/Chana Masala.jpg" alt="Curry 3">
+                </div>
+                <div class="menu-content">
+                    <h2>Chana Masala</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$10</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item curries">
+                <div class="menu-img">
+                    <img src="./Veg Curries/Dal.jpg" alt="Curry 4">
+                </div>
+                <div class="menu-content">
+                    <h2>Dal</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$10</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item curries">
+                <div class="menu-img">
+                    <img src="./Veg Curries/Mattar Paneer.avif" alt="Curry 5">
+                </div>
+                <div class="menu-content">
+                    <h2>Mattar Paneer</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$12</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item curries">
+                <div class="menu-img">
+                    <img src="./Veg Curries/Mughlai dish with fried potato paneer balls.jpg" alt="Curry 6">
+                </div>
+                <div class="menu-content">
+                    <h2>Mughlai Curry</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$13</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item curries">
+                <div class="menu-img">
+                    <img src="./Veg Curries/Mushroom curry.jpg" alt="Curry 7">
+                </div>
+                <div class="menu-content">
+                    <h2>Mushroom Curry</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$12</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item curries">
+                <div class="menu-img">
+                    <img src="./Veg Curries/Palak baby corn.jpg" alt="Curry 8">
+                </div>
+                <div class="menu-content">
+                    <h2>Palak Babycorn</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$13</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item curries">
+                <div class="menu-img">
+                    <img src="./Veg Curries/Rajma Masala.jpg" alt="Curry 9">
+                </div>
+                <div class="menu-content">
+                    <h2>Rajma Masala</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$12</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <div class="menu-item curries">
+                <div class="menu-img">
+                    <img src="./Non Veg Curries/Chicken Curry.jpg" alt="Curry 10">
+                </div>
+                <div class="menu-content">
+                    <h2>Chicken Curry</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$13</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item curries">
+                <div class="menu-img">
+                    <img src="./Non Veg Curries/Spicy Prawns Curry.jpg" alt="Curry 11">
+                </div>
+                <div class="menu-content">
+                    <h2>Prawns Curry</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$13</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item curries">
+                <div class="menu-img">
+                    <img src="./Non Veg Curries/Chicken Leg Curry.jpg" alt="Curry 12">
+                </div>
+                <div class="menu-content">
+                    <h2>Chicken leg Curry</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$14</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item curries">
+                <div class="menu-img">
+                    <img src="./Non Veg Curries/Crab Roast.JPG" alt="Curry 13">
+                </div>
+                <div class="menu-content">
+                    <h2>Crab Roast</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$13</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item curries">
+                <div class="menu-img">
+                    <img src="./Non Veg Curries/egg curry.jpg" alt="Curry 14">
+                </div>
+                <div class="menu-content">
+                    <h2>Egg Curry</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$12</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item curries">
+                <div class="menu-img">
+                    <img src="./Non Veg Curries/Fish.jpg" alt="Curry 15">
+                </div>
+                <div class="menu-content">
+                    <h2>Fish Curry</h2>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat placeat voluptatum earum facilis deleniti harum consequatur perferendis. Quo, molestias!</h5>
+                    <h3><span>$14</span></h3>
+                    <div onclick="showAlert()" class="menu-btn">
+                        <a href="#">Add to Cart</a>
+                        <i class="fa-solid fa-cart-shopping "></i>
+                    </div>
+                </div>
+            </div>
+            
+
+        </section>
+        </div>
+
+        <script src="./our.js"></script>
+    </body>
+</html>
